@@ -11,7 +11,7 @@ cv2.destroyAllWindows()
 
 
 # convert the input image to grayscale,
-# blur it, and detect the edges 
+# blur it, and detect the edges ok 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
 blur = cv2.GaussianBlur(gray, (5,5), 0) 
 cv2.imshow('blur', blur)
